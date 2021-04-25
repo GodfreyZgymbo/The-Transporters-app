@@ -58,7 +58,7 @@ export default SignIn;
 const styles = StyleSheet.create({
     container: {
       flex: 1,
-      backgroundColor: 'grey',
+      backgroundColor: 'orange',
       alignItems: '',
       justifyContent: '',
       margin:"65px"
@@ -77,7 +77,7 @@ const styles = StyleSheet.create({
     },
     text:{
        
-       marginLeft:"40%"
+       marginLeft:"22%"
     } ,
     btn:{
        

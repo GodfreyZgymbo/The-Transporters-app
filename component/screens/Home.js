@@ -25,15 +25,15 @@ function Home(props) {
                     <br/>
                 <Image style={styles.Img} source={require('../../assets/images/Truck5.jpeg') }  />
                 <br/>
-                <Link exact to="/Userrequest" ><Button type="submit" title="Hire Care"> </Button></Link>
+                <Link exact to="/Userrequest1" ><Button type="submit" title="Hire Care"> </Button></Link>
                     <br/>
                 <Image style={styles.Img} source={require('../../assets/images/Truck7.jpeg') }  />
                 <br/>
-                <Link exact to="/Userrequest" ><Button type="submit" title="Hire Care"> </Button></Link>
+                <Link exact to="/Userrequest2" ><Button type="submit" title="Hire Care"> </Button></Link>
                     <br/>
                     <Image style={styles.Img} source={require('../../assets/images/Truck4.jpeg') }  />
                 <br/>
-                <Link exact to="/Userrequest" ><Button type="submit" title="Hire Care" backgroundColor="black"> </Button></Link>
+                <Link exact to="/Userrequest3" ><Button type="submit" title="Hire Care" backgroundColor="black"> </Button></Link>
                     <br/>
 
             </View>
@@ -51,7 +51,7 @@ export default Home;
 const styles = StyleSheet.create({
     container: {
       flex: 1,
-      backgroundColor: 'grey',
+      backgroundColor: 'orange',
       alignItems: '',
       justifyContent: '',
     },

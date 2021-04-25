@@ -32,6 +32,7 @@ const UserDashBoard=(props)=> {
       
      
       <Text style={styles.text}> <h3>User Request being Processed......</h3> </Text>
+      <Image style={styles.Img} source={require('../../assets/images/Truck6.jpeg') }  />
       <Text> Transaction is Approved</Text>
       <br/>
       <Footer/> 
@@ -51,7 +52,7 @@ export default UserDashBoard;
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: 'grey',
+    backgroundColor: 'orange',
     alignItems: '',
     justifyContent: '',
   },

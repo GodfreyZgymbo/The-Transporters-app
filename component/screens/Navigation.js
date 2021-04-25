@@ -13,16 +13,21 @@ function Navigation(props) {
        <header>
         <Router>
                
-                <Link  exact to="/signup" >Sign Up </Link>
+                <Link  to="/signup" >Sign Up </Link>
                 
-                <Link  exact to="/" >  || Sign In</Link>
+                <Link to="/" >  || Sign In</Link>
                 
               <Switch> 
                
                 <Route exact path="/signup" component={signup}/>
                  <Route  path="/Home" component={Home}/>
                  <Route  path="/Userrequest" component={UserDashBoard}/>
+                 <Route  path="/Userrequest1" component={UserDashBoard1}/>
+                 <Route  path="/Userrequest2" component={UserDashBoard2}/>
+                 <Route  path="/Userrequest3" component={UserDashBoard3}/>
+                 <Route  path="/Userrequest4" component={UserDashBoard4}/>
                  <Route exact  path="/" component={signin}/>
+
             </Switch>
         </Router>
     </header>
@@ -43,7 +48,7 @@ export default Navigation;
 const styles = StyleSheet.create({
     container: {
       flex: 1,
-      backgroundColor: '#fff',
+      backgroundColor: 'white',
       alignItems: '',
       justifyContent: '',
     },
